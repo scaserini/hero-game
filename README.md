@@ -13,3 +13,5 @@ Collect fire energies, spit fire and kill all the monsters!
 
 
 You can find the game here:
+
+[https://hero-game-2021.netlify.app/](https://hero-game-2021.netlify.app/)
