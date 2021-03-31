@@ -1,0 +1,36 @@
+.header {
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  padding: 0.8rem 0;
+  width: 100vw;
+}
+
+.header > div {
+  align-items: center;
+  display: flex;
+  font-size: 1.3rem;
+  width: 50%;
+}
+
+.header > div:first-child {
+  justify-content: flex-start;
+  padding-left: 1rem;
+}
+
+.header > div:last-child {
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+.fire-icon {
+  background-color: var(--fire);
+  border: 4px solid var(--fire);
+  border-radius: 50%;
+  color: var(--white);
+  height: 1.2rem;
+  margin-right: 8px;
+  width: 1.2rem;
+}

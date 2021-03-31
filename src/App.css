@@ -1,0 +1,75 @@
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  width: max-content;
+}
+
+.cell {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  outline: 3.5px solid var(--black);
+}
+
+.cell-content {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  font-weight: 700;
+  height: 50%;
+  justify-content: center;
+  width: 50%;
+}
+
+.sea {
+  background-color: var(--sea);
+}
+
+.land {
+  background-color: var(--land);
+}
+
+.fire-cell {
+  background-color: var(--fire-background);
+}
+
+.fire-cell .monster,
+.fire-cell .energy,
+.fire-cell .hero {
+  display: none;
+}
+
+.hero {
+  background-color: var(--white);
+  border: 4px solid var(--black);
+  color: var(--black);
+}
+
+.energy {
+  background-color: var(--fire);
+  border: 4px solid var(--fire);
+  color: var(--white);
+}
+
+.fire {
+  color: var(--fire);
+  display: none;
+  height: 60%;
+  width: 60%;
+}
+
+.fire-cell .fire {
+  display: block;
+}
+
+.monster {
+  background-color: var(--monster);
+  border: 4px solid var(--black);
+}

@@ -1,0 +1,21 @@
+:root {
+  --app-background: aliceblue;
+  --modal-background: rgba(0, 0, 0, 0.7);
+  --black: #2f2519;
+  --white: #fff;
+  --land: #bd9354;
+  --sea: #b8b5ff;
+  --fire: #d12c07;
+  --fire-background: #f35028;
+  --monster: #000;
+}
+
+body {
+  background: var(--app-background);
+  color: var(--black);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
